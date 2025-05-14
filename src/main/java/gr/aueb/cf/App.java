@@ -12,7 +12,7 @@ import java.util.stream.Stream;
 public class App {
     public static void main(String[] args) {
 
-        Path folder = Path.of("C:/Users/Thana/Desktop/testDup");
+        Path folder = Path.of("C:/FOLDER_PATH");
 
         DuplicateFinder finder = new DuplicateFinder();
         finder.findDuplicates(folder).forEach((hash, paths) -> {
